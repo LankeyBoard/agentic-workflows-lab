@@ -89,7 +89,7 @@ tools:
     format-json: true
     allowed-extensions: [".json"]
     validation:
-      timeout-minutes: 15
+      timeout-minutes: 5
       script: |
         const fs = require("node:fs");
         const path = require("node:path");
