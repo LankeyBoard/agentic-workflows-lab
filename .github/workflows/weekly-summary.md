@@ -6,7 +6,7 @@ permissions:
   contents: read
   issues: read
   pull-requests: read
-engine: copilot
+engine: claude
 timeout-minutes: 10
 tools:
   bash: false
